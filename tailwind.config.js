@@ -12,6 +12,9 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      firacode: ["Fira Code", "monospace"],
+    }
   },
   plugins: [],
 };
