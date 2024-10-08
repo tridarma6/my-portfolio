@@ -3,6 +3,7 @@ import Skill from "./components/skill";
 import Main from "./components/main";
 import Project from "./components/project";
 import AboutMe from "./components/aboutme";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Skill/>
         <Project/>
         <AboutMe/>
+        <Contact/>
       </div>
     </>
   );
