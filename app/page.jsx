@@ -4,6 +4,7 @@ import Main from "./components/main";
 import Project from "./components/project";
 import AboutMe from "./components/aboutme";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <AboutMe/>
         <Contact/>
       </div>
+      <Footer/>
     </>
   );
 }

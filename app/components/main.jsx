@@ -4,7 +4,7 @@ import Dot from "../icons/dot";
 import Quote from "../icons/quote";
 export default function Main(){
     return(
-        <>
+        <div className="">
         <div className="flex flex-row justify-between gap-3">
             <div className="flex flex-col gap-5 w-1/2">
                 <h1 className="text-2xl text-gray-400">Hello Dude!</h1>
@@ -42,6 +42,6 @@ export default function Main(){
             </div>
         </div>
         <div className="flex justify-end items-center border border-gray-400 pr-7 py-3 mb-16 mr-72 ml-[560px]">- Eminem</div>
-        </>
+        </div>
     );
 }

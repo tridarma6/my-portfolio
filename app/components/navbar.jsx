@@ -16,13 +16,13 @@ export default function Navbar(){
                     <a href="/#home"><span className="text-[#C778DD]">#</span>home</a>
                 </li>
                 <li className="rounded-[10px] w-max p-2">
-                    <a href="/#works"><span className="text-[#C778DD]">#</span>works</a>
+                    <a href="/#project"><span className="text-[#C778DD]">#</span>project</a>
                 </li>
                 <li className="rounded-[10px] w-max p-2">
                     <a href="/#about-me"><span className="text-[#C778DD]">#</span>about-me</a>
                 </li>
                 <li className="rounded-[10px] w-max p-2">
-                    <a href="/#contacts"><span className="text-[#C778DD]">#</span>contacts</a>
+                    <a href="/#contact"><span className="text-[#C778DD]">#</span>contacts</a>
                 </li>
             </ul>
         </nav>

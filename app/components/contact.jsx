@@ -2,10 +2,11 @@ import Discord from "../icons/discord";
 import Email from "../icons/email";
 import Telegram from "../icons/telegram";
 import Link from "next/link";
+import Dot from "../icons/dot";
 export default function Contact(){
     return(
-        <>
-        <div className="flex flex-row mt-10 items-center gap-2">
+        <div className="relative">
+        <div className="flex flex-row mt-10 items-center gap-2" id="contact">
             <h1 className="font-regular text-2xl"><span className="text-[#C778DD]">#</span>contact</h1>
             <div className="border border-[#C778DD] w-[240px] h-0"></div>
         </div>
@@ -28,6 +29,9 @@ export default function Contact(){
                 </Link>
             </div>
         </div>
-        </>
+        <div className="absolute -left-44 top-1/4">
+            <Dot/>
+        </div>
+        </div>
     );
 }
