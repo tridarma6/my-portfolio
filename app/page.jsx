@@ -8,9 +8,9 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="pt-2">
       <LeftSide/>
-      <div className="px-36">
+      <div className="pr-[30px] sm:px-36">
         <Main/>
         <Skill/>
         <Project/>
@@ -18,6 +18,6 @@ export default function Home() {
         <Contact/>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 }

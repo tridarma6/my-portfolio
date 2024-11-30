@@ -1,6 +1,6 @@
 export default function GroupDecor(){
     return(
-        <svg width="349" height="283" viewBox="0 0 349 283" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="hidden lg:block" width="349" height="283" viewBox="0 0 349 283" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="2" cy="40" r="2" fill="#ABB2BF"/>
 <circle cx="16.75" cy="40" r="2" fill="#ABB2BF"/>
 <circle cx="31.5" cy="40" r="2" fill="#ABB2BF"/>
