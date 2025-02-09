@@ -6,18 +6,18 @@ import Quote from "../icons/quote";
 export default function Main() {
   return (
     <div className="sm:px-6 md:px-12 lg:px-24">
-      <div className="flex flex-col sm:flex-row justify-between gap-6 sm:gap-12 lg:gap-16 ">
+      <div className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-12 lg:gap-16 ">
         <div className="flex flex-col gap-5 w-full sm:w-1/2 pl-[80px]">
-          <h1 className="text-2xl text-gray-400">Hello Dude!</h1>
+          <h1 className="text-2xl text-gray-400" id="main">Hello Dude!</h1>
           <h1 className="text-4xl sm:text-5xl text-white font-semibold">
             Tri Darma is a <span className="text-4xl sm:text-5xl text-[#C778DD]">front-end developer</span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-400">
             He crafts responsive websites where technologies meet creativity
           </p>
-          <button className="border border-[#C778DD] w-32 sm:w-40 p-2 text-center">
-            <p>Contact me!</p>
-          </button>
+          <a className="border border-[#C778DD] w-32 sm:w-40 p-2 text-center" href="https://wa.me/6281333486847">
+            Contact me!
+          </a>
         </div>
 
         <div className="flex flex-col ml-[16px] items-center sm:items-start w-full sm:w-1/2 relative">
@@ -29,7 +29,7 @@ export default function Main() {
               height={413}
               className="z-20"
             />
-            <div className="absolute top-1/4 -left-8 sm:left-0">
+            <div className="absolute top-1/4 -left-8 sm:left-0 z-0">
               <Decor />
             </div>
             <div className="absolute top-2/3 right-[10px] sm:right-0">
@@ -38,8 +38,8 @@ export default function Main() {
           </div>
           <div className="border border-white flex flex-row justify-center items-center mt-4 sm:mt-6">
             <div className="w-3 p-2 my-2 mx-2 bg-[#C778DD]"></div>
-            <p className="text-sm sm:text-base">
-              Currently working on <span className="font-bold">Portfolio</span>
+            <p className="text-sm sm:text-base ">
+            Currently studying at <span className="font-bold">Udayana University</span>
             </p>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function Navbar() {
       {/* Desktop Navbar */}
       <ul className="hidden lg:flex flex-row gap-6 justify-center items-center text-lg">
         <li className="rounded-[10px] w-max p-2">
-          <a href="/#home"><span className="text-[#C778DD]">#</span>home</a>
+          <a href="/#main"><span className="text-[#C778DD]">#</span>main</a>
         </li>
         <li className="rounded-[10px] w-max p-2">
           <a href="/#project"><span className="text-[#C778DD]">#</span>project</a>
