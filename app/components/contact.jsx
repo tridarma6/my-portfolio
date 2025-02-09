@@ -51,11 +51,6 @@ export default function Contact() {
           </Link>
         </div>
       </div>
-
-      {/* Decorative Dot */}
-      <div className="absolute -left-44 top-1/4 sm:left-10 sm:top-1/4">
-        <Dot />
-      </div>
     </div>
   );
 }
