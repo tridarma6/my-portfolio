@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Dot from "../icons/dot";
+import Github from "../icons/github";
+import Link from "next/link";
 
 export default function Project() {
   return (
@@ -30,14 +31,14 @@ export default function Project() {
             <p className="px-2 py-[2px] text-gray-400">Next TypeScript MariaDB</p>
           </div>
           <div className="flex flex-col gap-2 border border-gray-400 px-2 py-[2px]">
-            <h1 className="text-xl sm:text-2xl">ITCC UDAYANA 2024</h1>
+            <h1 className="text-xl sm:text-2xl">ITCC 2024</h1>
             <p className="text-gray-400">Team</p>
           </div>
         </div>
 
         {/* Second Project */}
         <div className="flex flex-col w-full sm:w-1/3">
-        <div className="border border-gray-400 p-[9px]">
+          <div className="border border-gray-400 p-[9px]">
             <Image
               src={"/images/buildit.jpg"}
               alt="BUILD IT"
@@ -56,7 +57,7 @@ export default function Project() {
 
         {/* Third Project */}
         <div className="flex flex-col w-full sm:w-1/3">
-        <div className="border border-gray-400 p-[9px]">
+          <div className="border border-gray-400 p-[9px]">
             <Image
               src={"/images/portofolio.jpg"}
               alt="portofolio"
@@ -72,6 +73,12 @@ export default function Project() {
             <p className="text-gray-400">Solo</p>
           </div>
         </div>
+      </div>
+      <div className="flex py-3 pl-2 sm:w-1/4 w-full border-2 sm:gap-1 gap-2  justify-center items-center my-5 ml-4 sm:mx-[70px]">
+        <a href="https://github.com/tridarma6">Check my github here</a>
+        <Link href={"https://github.com/tridarma6"} >
+          <Github/>
+        </Link>
       </div>
     </div>
   );
