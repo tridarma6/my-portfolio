@@ -58,16 +58,16 @@ export default function Navbar() {
         </div>
         <ul className="flex flex-col items-end text-lg pr-8">
           <li className="rounded-[10px] w-max p-2">
-            <a href="/#home"><span className="text-[#C778DD]">#</span>home</a>
+            <a onClick={toggleSidebar} href="/#main"><span className="text-[#C778DD]">#</span>main</a>
           </li>
           <li className="rounded-[10px] w-max p-2">
-            <a href="/#project"><span className="text-[#C778DD]">#</span>project</a>
+            <a onClick={toggleSidebar} href="/#project"><span className="text-[#C778DD]">#</span>project</a>
           </li>
           <li className="rounded-[10px] w-max p-2">
-            <a href="/#about-me"><span className="text-[#C778DD]">#</span>about-me</a>
+            <a onClick={toggleSidebar} href="/#about-me"><span className="text-[#C778DD]">#</span>about-me</a>
           </li>
           <li className="rounded-[10px] w-max p-2">
-            <a href="/#contact"><span className="text-[#C778DD]">#</span>contacts</a>
+            <a onClick={toggleSidebar} href="/#contact"><span className="text-[#C778DD]">#</span>contacts</a>
           </li>
         </ul>
       </div>

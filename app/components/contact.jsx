@@ -27,19 +27,19 @@ export default function Contact() {
         <div className="flex flex-col border border-white p-4 gap-4 text-[16px] sm:text-lg text-gray-400 tracking-widest w-full sm:w-1/2">
           <h1 className="text-white mb-4 text-xl sm:text-2xl">Message me here</h1>
           <Link
-            className="flex flex-row gap-2 justify-start items-center"
+            className="flex flex-row gap-2 pl-1 justify-start items-center"
             href={"https://discord.com"}
             target="_blank"
           >
             <Discord />
-            <p>trikwhy</p>
+            <p className="pl-1">trikwhy</p>
           </Link>
           <Link
-            className="flex flex-row gap-2 justify-start items-center"
+            className="flex flex-row gap-2 pl-1 justify-start items-center"
             href={"mailto: triidarma06@gmail.com"}
           >
             <Email />
-            <p>triidarma06@gmail.com</p>
+            <p className="pl-1">triidarma06@gmail.com</p>
           </Link>
           <Link
             className="flex flex-row gap-2 justify-start items-center"
